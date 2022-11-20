@@ -1,8 +1,8 @@
 import os
 import sys
 import pyperclip #クリップボードに保存
-from libs.time_module import time_module
-from pyside6_sub_window import AnotherWindow
+from QuickCopy_PyInstaller.libs.time_module import time_module
+from QuickCopy_PyInstaller.pyside6_sub_window import AnotherWindow
 #from libs.check_json_module import check_json_module
 import json
 from PySide6.QtWidgets import *  #QApplication, QWidget, QPushButton
