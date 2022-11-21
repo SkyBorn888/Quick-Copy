@@ -25,6 +25,6 @@ URL -> https://pypi.org/project/pyinstaller/
 以下のコマンドでコンパイルします
 
 ```shell
-pyinstaller --name="QuickCopy" --windowed --icon=QuickCopy.ico .\QuickCopy_PyInstaller\__main__.py
+pyinstaller --name="QuickCopy" --windowed --icon=icon/QuickCopy.ico .\QuickCopy_PyInstaller\__main__.py
 ```
 distフォルダが生成されQuickCopyフォルダの中にexeファイルが存在します。
