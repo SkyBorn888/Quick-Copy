@@ -16,15 +16,20 @@ PySide6 GUIフレームワークを使用し作成されました。
 macで実行する際はPythonで実行して試してください
 
 
-
-
 # PyInstaller
 PyInstallerとは、さまざまなOSでスタンドアロンとして実行可能ファイルにパッケージ化します。
 URL -> https://pypi.org/project/pyinstaller/
 
 以下のコマンドでコンパイルします
 
+## Windows
 ```shell
 pyinstaller --name="QuickCopy" --windowed --icon=icon/QuickCopy.ico .\QuickCopy_PyInstaller\__main__.py
 ```
+## Linux (検証済み環境：Linux mint, Ubuntu)
+```shell
+pyinstaller --name="QuickCopy" --windowed --icon=icon/QuickCopy.ico QuickCopy_PyInstaller/__main__.py
+```
+
 distフォルダが生成されQuickCopyフォルダの中にexeファイルが存在します。
+
