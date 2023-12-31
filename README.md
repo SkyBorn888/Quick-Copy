@@ -28,7 +28,7 @@ pyinstaller --name="QuickCopy" --windowed --icon=icon/QuickCopy.ico .\QuickCopy_
 ```
 ## Linux (検証済み環境：Linux mint, Ubuntu)
 ```shell
-pyinstaller --name="QuickCopy" --windowed --icon=icon/QuickCopy.ico QuickCopy_PyInstaller/__main__.py
+pyinstaller --name="QuickCopy" --windowed --onefile --icon=icon/QuickCopy.ico QuickCopy_PyInstaller/__main__.py
 ```
 
 distフォルダが生成されQuickCopyフォルダの中にexeファイルが存在します。
